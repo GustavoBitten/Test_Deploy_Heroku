@@ -1,0 +1,409 @@
+body {
+  padding: 10vh 0 0 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.logo{
+  width: 11em;
+}
+
+ul.navbar-nav > li > a{
+  border: none;
+
+}
+.fa-bars, ul.navbar-nav > li > a:hover, span#btnAcessar {
+  color: #E8751C !important;
+}
+
+footer > div.container-fluid, footer > section.container-fluid {
+  background-color: #078407;
+  height: 5vh
+}
+
+#nav * , #nav {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+
+}
+
+#nav{
+  border-bottom: 2px solid #06b600;
+  height: 10vh;
+  box-shadow: 0 -3px 20px 0px  rgba(0, 0, 0, 0.4);
+
+}
+
+@media (min-width: 768px) {
+  ul.navbar-nav > li {
+    border-top: 2px solid #06B600;
+    border-bottom: 2px solid #06B600;
+    height: 2em;
+  }
+}
+
+
+@media (max-width: 767px){
+  #navCollapse ul{
+    background-color: #f8f9fa;
+    padding: 15px;
+    font-size: 1.2rem;
+  }
+
+  #navCollapse ul li{
+    padding-top: 5px;
+  }
+
+}
+
+@media (min-width: 365px) and (max-width: 767px) {
+  button#btnToggle > i {
+    padding-left: 8px;
+    border-left: 1.5px solid #E8751C;
+  }
+}
+
+@media (max-width: 354px) {
+  div#acessar {
+    padding-right: 8px;
+  }
+}
+
+@media (min-width: 1180px) {
+  div#acessar {
+    padding-left: 153px;
+  }
+}
+
+/* #imgInicial{
+   background-image: url("/img/Portaria.jpg"); 
+  background-repeat: no-repeat;
+  height: 93vh;
+  background-size: cover;
+   filter: brightness(80%); 
+  text-align: center;
+  
+}
+
+/* #imgInicial div{
+display: flex;
+justify-content: center; 
+}
+
+#imgInicial img {
+  width: 500px;
+}
+
+#imgInicial h1{
+  
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px;
+  box-shadow:0 0 10px black; 
+  text-shadow: 0 0 3px rgba(1, 1, 1, 0.5);
+  font-weight: 700;
+  font-family: 'Bebas Neue';
+  color: #E8751C;
+}
+
+#banner-acesse{
+  background-color: orange;
+  position: absolute;
+  bottom: -4px;
+  width: 100%;
+ 
+} 
+*/
+
+#main{
+  background-color:#078407;
+}
+
+.pFirst{
+  height: 80vh;
+  background-color: #078407;
+}
+
+
+
+
+.pFirst * {
+  background-color: #efefef;
+  
+}
+
+
+.pFirst h1{
+  text-shadow: 2px 2px 1px #00000063;
+  color: #e8751c;
+  padding: 1px 14px;
+  border-left: 6px solid #06b600;
+  margin-top: 24px;
+}
+
+.pFirst .part1{
+  height: 13vh
+}
+
+.pFirst div>h2{
+  margin:0
+}
+
+.pFirst .part2{
+  height: 67vh
+  
+}
+
+.pFirst .part2 p{
+  color: #000000
+}
+
+.pFirst .part2 img{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.pFirst .part3{
+  height: 80vh;
+}
+
+
+#alertBox1,#alertBox2,#alertBox3,#alertBox4,#alertBox5{
+  box-shadow: 0px 3px 10px 0px  rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  height: 10vh;
+  
+}
+
+#alertBox1,#alertBox2,#alertBox3,#alertBox4,#alertBox5{
+  background-color: rgba(232, 150, 28, 0.92);
+}
+
+#alertBox1 h2 ,#alertBox2 h2,#alertBox3 h2,#alertBox4 h2,#alertBox5 h2{
+  background-color: transparent;
+
+}
+
+
+#carouselDeImgs{
+
+  width: 83%;
+}
+
+#carouselDeImgs *{
+  background-color: transparent;
+
+
+}
+
+.row{
+  flex-wrap: unset;
+}
+
+.card{
+  margin: 1.5%;
+  background-color: transparent;
+  
+}
+
+.card a{
+  border: 1px solid #06b600
+}
+
+.card-body{
+  padding: 8px;
+}
+
+.form-control{
+  padding: 0.2rem 0.3rem;
+  height: unset;
+}
+
+.contact-form{
+  border-radius: .25rem;
+  border: 1px solid #858b92;
+  background-color: white
+  
+}
+
+.contact-form *{
+  background-color: white;
+  
+}
+
+
+
+/* form *, .form-control{
+  font-size: 94%;
+  
+} */
+
+.form-group{
+  margin-bottom: 1%;
+}
+
+/* .textarea label{
+  font-size:88%
+} */
+
+.w-66{
+  width: 66%;
+}
+
+.w-34{
+  width: 34%;
+}
+
+.w-62{
+  width: 62%;
+}
+
+.w-83{
+  width: 83%;
+}
+
+#detalhesApartamento{
+
+  padding-right: 5%;
+}
+
+#detalhesApartamento .btn{
+  font-size: 1.2rem;
+}
+
+#detalhesApartamento .card{
+  margin: 0px;
+  
+}
+
+#detalhesApartamento .card-header{
+  padding: 0;
+}
+
+#detalhesApartamento button{
+  padding: 0 9px;
+  color: #06b600;
+}
+
+.modalPiscina,.modalPiscina *{
+  background-color : transparent ;
+}
+
+
+.modalPiscina .modal-dialog{
+  background-color: white;
+}
+
+#sessaoContato .part2 h4{
+  margin-bottom: 25%;
+}
+
+#sessaoLocalizacao .part2 h5{
+  margin: 11px 0 0 0 ;
+}
+
+#sessaoContato form button{
+  width: 73%;
+  margin: 18px auto;
+  background-color: #6c757d;
+  color: white;
+}
+
+
+
+@media  (max-width:576px){
+
+  .pFirst .part1,.pFirst .part2, .pFirst .part3 ,.pFirst {
+    height: unset;
+    
+  }
+ 
+  #sessaoHome .part2 .col-10{
+    flex-direction: column!important;
+  }
+
+  #sessaoHome .part2 img{
+    width: 100%!important;
+  }
+  #sessaoHome .part2 .col-10 p{
+    padding: 0 0 1rem 0!important;
+  }
+
+ 
+  #detalhesApartamento{
+    padding: 0;
+  }
+
+  #sessaoLazer #conteinerCardLazer{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  } 
+  #sessaoLazer #conteinerCardLazer .card{
+    width: 86%!important
+  }
+
+  #sessaoLocalizacao .part3{
+    flex-wrap: wrap;
+  }
+
+  #sessaoContato .part3{
+    flex-wrap: wrap;
+  }
+
+  #sessaoContato .part2 h4{
+    margin-bottom: 10%;
+
+  }
+
+  #sessaoContato p, #sessaoContato h5{
+    display: none;
+  }
+  #sessaoContato form{
+    margin-bottom: 7%;
+    width: 90%!important;
+
+  }
+
+  #alertBox1 h2 ,#alertBox2 h2,#alertBox3 h2,#alertBox4 h2,#alertBox5 h2{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 10px;
+    
+  }
+
+
+
+
+
+
+
+}
+
+.footer-text{
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 13px black;
+}
+
+/* @media (min-width: 577px)  */
+
+
+/* @media (min-width: 769px) and (max-width:1200px){
+
+} */
+
+.modal-content{
+  background: white;
+  border-radius: 11px;
+  height: 86vh;
+
+}
+.modal-dialog{
+  background-color: transparent!important;
+}
+
+
+

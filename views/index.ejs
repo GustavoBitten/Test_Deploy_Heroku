@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('includes/head', {titulo:titulo})%>
+
+  <link rel="stylesheet" href="/css/home/layout.css">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+  
+<body class="d-flex flex-column body" id="body">
+
+  <%- include('includes/home/header')%>
+
+  <main id="main" >
+    <section id="sessaoHome" class="pFirst flex-column d-flex justify-content-between">
+      <div class="container"  >
+        <div class="row part1">
+          <div class="col-12 d-flex part1 align-items-center justify-content-center    ">
+            <h1>Plaza das Flores, o residencial perfeito para você</h1>
+          </div>
+        </div>
+        <div class="row part2">
+          <div class="col-1   ">
+            
+          </div>
+          <div class="col-10 p-0 d-flex flex-fill justify-content-between flex-row-reverse  align-items-center   ">
+            <img src="images/home/Portaria.jpg" alt="Portaria" class="w-50 m-3">
+            <p class="m-0 p-3">Se está procurando um lar com conforto, segurança e lazer, o Plaza das Flores foi feito para você! Além do ótimo espaço, nosso condomínio residencial possui uma portaria 24h para te dar o suporte e tranquilidade que você precisa. Temos uma localização incrível para facilitar sua rotina e também uma lanchonete exclusiva para sua melhor comodidade e diversão! E não se preocupe, suas crianças e animais de estimação são muito bem-vindos e respeitados. A exclusividade que você sempre sonhou está aqui!
+            </p>
+          </div>
+          <div class="col-1   ">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container d-flex  align-items-center justify-content-center " id="alertBox1" >
+      <h2>Se você já é morador, acesse sua área exclusiva</h2>
+    </div>
+    
+    
+    <%- include('homeParts/homeSobre')%>
+
+    <%- include('homeParts/homeApartamento')%>
+    <%- include('homeParts/homeLazer')%>
+    <%- include('homeParts/homeLocalizacao')%>
+    <%- include('homeParts/homeContato')%>
+    
+
+
+   
+  </main>
+
+  
+  <%- include('includes/footer')%>
+
+  <script>
+
+   
+
+
+  </script>
+  
+    <%- include('includes/scriptJS')%>
+</body>
+</html>

@@ -1,0 +1,7 @@
+@media (max-width: 1665px) {
+  a[id^='excluirCorrespondencia'] {
+    margin-left: 0 !important;
+    margin-top: 5px !important;
+    display: block;
+  }
+}

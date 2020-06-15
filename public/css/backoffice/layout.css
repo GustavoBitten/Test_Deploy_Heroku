@@ -1,0 +1,155 @@
+body {
+  padding: 61px 0 0 14vw;
+}
+
+.logo{
+  width: 9em;
+}
+
+nav div#user a:hover {
+  text-decoration: none;
+}
+
+nav div#user span, nav div#user i {
+  color: #E8751C;
+}
+
+nav div#user span:hover {
+  color: #FFA62B;
+}
+
+nav span#logout {
+  font-weight: bold;
+}
+
+i.fa-user-circle {
+  font-size: 2em;
+}
+
+aside {
+  background-color: #E8751C;
+  width: 14vw;
+  max-width: 201px;
+  position: fixed;
+  left: 0;
+}
+
+aside ul.nav {
+  padding: 0 10px;
+}
+
+aside a.nav-link {
+  border-bottom: 1px solid white;
+}
+
+aside a.nav-link:last-child {
+  border-bottom: none;
+}
+
+aside a.nav-link:hover {
+  color: #FFA62B !important;
+}
+
+.iconAside{
+  width: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #E8751C;
+}
+
+.card, .card-header {
+  border-color: #FFA62B;
+}
+
+.card-header, div.modal-header {
+  background-color: #FFA62B;
+  color: white;
+}
+
+.btn-orange {
+  color: white;
+  background-color: #E8751C;
+}
+
+.btn-orange:hover {
+  background-color: #FFA62B;
+}
+
+/* --------- custom elements start--------- */
+.customMain{
+  padding-top: .5rem!important;
+  margin: 0!important;
+  width: 100%!important;
+  padding-right: 15px!important;
+  padding-left: 15px!important;
+}
+
+.customSection{
+  width: fit-content; 
+  margin: 0 auto
+}
+
+
+/* --------- custom elements end--------- */
+
+
+@media (max-width: 678px){
+  .hidden-xs-down {
+      display: none !important;
+  }
+}
+
+@media (min-width: 1436px) {
+  body {
+    padding-left: 200px;
+  }
+}
+
+@media (max-width: 1060px) {
+  body {
+    padding-left: 150px;
+  }
+
+  aside {
+    width: 150px;
+  }
+}
+
+@media (max-width: 449px) {
+  body {
+    padding-left: 60px;
+  }
+  
+  span.text-link {
+    display: none;
+  }
+
+  aside {
+    width: 60px;
+  }
+}
+
+@media (max-width: 436px) {
+  a#perfil {
+    display: none;
+  }
+}
+
+@media (min-width: 437px) {
+  a#perfilSm {
+    display: none;
+  }
+}
+
+@media (max-width: 325px) {
+  body {
+    padding-top: 109px;
+  }
+
+  div#brand, div#user {
+    width: 100%;
+    justify-content: center !important;
+  }
+}

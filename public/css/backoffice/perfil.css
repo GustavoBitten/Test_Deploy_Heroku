@@ -1,0 +1,213 @@
+.card{
+    width: 281px;
+    height: 300px;
+    margin: 20px 20px 0px 20px;
+ 
+}
+
+
+.card-body{
+    font-size: 14px;
+    
+}
+
+.card-footer, .card-header{
+    border: solid 2px #FFA62B;
+}
+
+
+.card-footer{
+    background-color: #FFA62B;
+}
+
+.footerTexto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+.card-title{
+    font-weight: bold;
+}
+.contador{
+    
+}
+
+.botoesCaixa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.btnIcon{
+    font-size: 18px;
+}
+
+.btnEditar, .btnExcluir {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items: center;
+    color: white;
+
+}
+
+
+.btnNovo{
+    border-radius: 20px;
+    background-color: #FFA62B;
+    border: solid 1px white;
+
+}
+
+
+.card{
+    margin:5px
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start ;
+    align-items: center;
+}
+
+.cardMorador{
+    margin-left: 140px;
+    margin-bottom: 10px;
+    border: solid 2px #FFA62B ;
+    border-radius: 5px;
+    width: 63vw;
+    
+}
+
+.cardsAll{
+    margin-left: 135px;
+}
+
+
+
+.titulo{
+    color: #E8751C;
+    margin:0 0 20px 10px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+
+/* cartao principal */
+#col-fotoPerfil {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center;  
+     
+}
+
+#col-fotoPerfil img{
+    object-fit: cover;
+    
+}
+
+
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center; 
+   
+    
+}
+
+/* icons */
+.card-body svg {
+    color: #FFA62B;
+}
+
+
+
+/* modal pai */
+.edicao {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center; 
+    background-color: #FFA62B;
+}
+
+.edicao button{
+    width: 140px;
+}
+ .btnCard{
+    background-color:#E8751C;
+    border: solid 2px #FFA62B;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 680px){
+    .titulo{
+        font-size: 24px;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    
+    .cardsAll{
+        margin-left: 15px;
+        margin-right: 20px;
+        width: 78vw;
+        
+    }
+
+    .cardMorador{
+        width: 75vw;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+}
+
+
+
+
+
+/* telas cel na horizontal e tablet*/
+@media (min-width: 680px) and (max-width: 1024px) {
+
+    
+    .edicao button{
+        width: 100px;
+    }
+    
+
+    }
+    
+
